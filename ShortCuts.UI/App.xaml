@@ -1,0 +1,27 @@
+﻿<Application x:Class="ShortCuts.UI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ShortCuts.UI.Views"
+             xmlns:boot="clr-namespace:ShortCuts.UI"
+             ShutdownMode="OnMainWindowClose">
+             <!--StartupUri="MainWindow.xaml"-->
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <boot:AppBootstrapper x:Key="bootstrapper"/>
+                </ResourceDictionary>
+                <!--<ResourceDictionary Source="Resources/ControlDictionary.xaml"/>-->
+                <ResourceDictionary Source="Resources\Colors.xaml"/>
+                <ResourceDictionary Source="Resources\Fonts.xaml"/>
+                <ResourceDictionary Source="Resources\FontSize.xaml"/>
+                <ResourceDictionary Source="Resources\Styles\TextBox.xaml"/>
+                <ResourceDictionary Source="Resources\Styles\Button.xaml"/>
+                <ResourceDictionary Source="Resources\Styles\ComboBox.xaml"/>
+                <ResourceDictionary Source="Resources\Styles\ListView.xaml"/>
+                <ResourceDictionary Source="Resources\ControlDictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

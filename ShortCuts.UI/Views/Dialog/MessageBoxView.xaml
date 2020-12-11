@@ -1,0 +1,89 @@
+﻿<UserControl x:Class="ShortCuts.UI.Views.Dialog.MessageBoxView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ShortCuts.UI.Views.Dialog"
+             xmlns:cal="http://www.caliburnproject.org"
+             mc:Ignorable="d" 
+             Height="230" Width="500"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Border>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="0.6*"/>
+            </Grid.RowDefinitions>
+            <!--Title  Header Grid-->
+            <Border Background="{StaticResource RedColorBrush}" CornerRadius="10 10 0 0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.3*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="0.3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Path Height="30" 
+                          Width="30" 
+                          Fill="{StaticResource PureWhiteColorBrush}" 
+                          Stretch="Uniform"
+                          Data="F1M82.327,102.817C82.327,98.623 79.582,96.172 75.016,96.172 70.41,96.172 67.666,98.623 67.666,102.817 67.666,106.933 70.416,109.384 75.016,109.384 79.582,109.384 82.327,106.933 82.327,102.817 M68.266,49.222L69.377,85.184 80.621,85.184 81.732,49.222z M136.177,127.781L133.811,127.675 15.728,127.778 15.617,127.667 13.889,127.778C9.294,127.778 5.556,124.04 5.556,119.445 5.556,117.912 5.982,116.447 6.823,115.091L7.696,113.623 7.669,113.577 67.315,10.653C68.623,7.555 71.639,5.556 75,5.556 78.361,5.556 81.375,7.555 82.837,10.965L142.329,113.577 142.285,113.65 143.175,115.091C144.019,116.45 144.445,117.915 144.445,119.445 144.445,124.04 140.707,127.778 136.177,127.781 M148.728,113.71L148.78,113.626 87.799,8.491C85.623,3.334 80.599,0 75,0 69.401,0 64.378,3.331 62.354,8.176L2.04,112.207 1.235,113.653 1.27,113.71C0.434,115.519 0,117.475 0,119.445 0,126.826 5.787,132.878 13.062,133.309L136.111,133.334C143.769,133.334 150,127.103 150,119.445 150,117.475 149.564,115.522 148.728,113.71"/>
+                    <TextBlock Grid.Column="1" 
+                               HorizontalAlignment="Center" 
+                               VerticalAlignment="Center"
+                               Text="Information Message"
+                               Foreground="{StaticResource PureWhiteColorBrush}"
+                               FontFamily="{StaticResource RegularFont}"
+                               FontSize="{StaticResource NormalSize}"/>
+                    <Button x:Name="Close"
+                            Grid.Column="2"
+                            Style="{StaticResource BaseButton}"
+                            Background="Transparent">
+                        <Border Height="32" Width="32" CornerRadius="32" BorderBrush="{StaticResource PureWhiteColorBrush}" BorderThickness="1.5" Background="Transparent">
+                            <Path Height="18" 
+                              Width="18" 
+                              Fill="{StaticResource PureWhiteColorBrush}"
+                              Stretch="Uniform"
+                              Data="M43.655,92.147 L32.85,81.342 51.692,62.499 32.85,43.657 43.655,32.852 62.498,51.694 81.34,32.852 92.145,43.657 73.303,62.499 92.14,81.336 81.335,92.142 62.498,73.304 z"/>
+                        </Border>
+                    </Button>
+                </Grid>
+
+            </Border>
+            <Grid Grid.Row="1" Background="{StaticResource PureWhiteColorBrush}">
+                <TextBlock Text="Are You Sure You Want To Delete This Short Cut" 
+                           FontSize="{StaticResource NormalSize}"
+                           FontFamily="{StaticResource RegularFont}"
+                           Foreground="{StaticResource GrayColorBrush}"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </Grid>
+            <Border Grid.Row="2" Background="{StaticResource PureWhiteColorBrush}" CornerRadius="0 0 10 10">
+                <Grid >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="Cancel" 
+                        Grid.Column="0" 
+                        Height="45" 
+                        Width="200" 
+                        Background="{StaticResource GrayColorBrush}"
+                        Content="CANCEL"
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Center"
+                        Style="{StaticResource BaseButton}"/>
+                    <Button Grid.Column="1"
+                        cal:Message.Attach="Submit()"
+                        Height="45" 
+                        Width="200" 
+                        Background="{StaticResource GreenColorBrush}"
+                        Content="OK"
+                        HorizontalContentAlignment="Center"
+                        VerticalContentAlignment="Center"
+                        Style="{StaticResource BaseButton}"/>
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
+</UserControl>

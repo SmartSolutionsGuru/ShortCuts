@@ -1,0 +1,73 @@
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\ShortCuts.DAL.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\ShortCuts.DAL.pdb
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\obj\Debug\ShortCuts.DAL.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\obj\Debug\ShortCuts.DAL.pdb
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\SQLitePCLRaw.nativelibrary.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\System.Buffers.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\System.Memory.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\System.Buffers.xml
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\System.Memory.xml
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\obj\Debug\ShortCuts.DAL.csproj.CopyComplete
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\ShortCuts.DAL.dll.config
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\EntityFramework.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\EntityFramework.xml
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\System.Data.SQLite.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\System.Data.SQLite.xml
+C:\Users\sbutt\source\repos\ShortCuts\ShortCuts.DAL\bin\Debug\System.Data.SQLite.dll.config
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\runtimes\win-x86\native\e_sqlite3.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\runtimes\win-x64\native\e_sqlite3.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\runtimes\win-arm\native\e_sqlite3.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\ShortCuts.DAL.dll.config
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\ShortCuts.DAL.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\ShortCuts.DAL.pdb
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\Caliburn.Micro.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\Caliburn.Micro.Platform.Core.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\EntityFramework.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\ShortCut.Util.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\SQLitePCLRaw.core.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\SQLitePCLRaw.nativelibrary.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\System.Buffers.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\System.Data.SQLite.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\System.Memory.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\System.Numerics.Vectors.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\System.Windows.Interactivity.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\ShortCut.Util.pdb
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\Caliburn.Micro.xml
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\Caliburn.Micro.Platform.Core.xml
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\EntityFramework.xml
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\System.Buffers.xml
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\System.Data.SQLite.xml
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\System.Data.SQLite.dll.config
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\System.Memory.xml
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\System.Numerics.Vectors.xml
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\obj\Debug\ShortCuts.DAL.csprojAssemblyReference.cache
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\obj\Debug\ShortCuts.DAL.csproj.CoreCompileInputs.cache
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\obj\Debug\ShortCuts.DAL.csproj.CopyComplete
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\obj\Debug\ShortCuts.DAL.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCuts.DAL\obj\Debug\ShortCuts.DAL.pdb

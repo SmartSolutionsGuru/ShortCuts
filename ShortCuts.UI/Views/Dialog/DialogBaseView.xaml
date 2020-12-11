@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="ShortCuts.UI.Views.Dialog.DialogBaseView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:core="clr-namespace:ShortCuts.Core.ViewModels;assembly=ShortCuts.Core"
+             xmlns:converter="clr-namespace:ShortCuts.UI.Converters"
+             xmlns:local="clr-namespace:ShortCuts.UI.Views.Dialog"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="400">
+    <UserControl.Resources>
+        <converter:NullToVisibilityConverter x:Key="NullToVisibilityConverter"/>
+    </UserControl.Resources>
+    <Grid  Visibility="{Binding ActiveItem,Mode=OneWay,Converter={StaticResource NullToVisibilityConverter}}"  Background="#7F000000" IsHitTestVisible="True">
+        <ContentControl x:Name="ActiveItem"  />
+    </Grid>
+</UserControl>

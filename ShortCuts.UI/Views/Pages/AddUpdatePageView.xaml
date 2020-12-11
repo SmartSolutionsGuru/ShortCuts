@@ -1,0 +1,240 @@
+﻿<UserControl x:Class="ShortCuts.UI.Views.Pages.AddUpdatePageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:ControlExtensions="clr-namespace:ShortCuts.UI.Helpers.ControlExtensions"
+             xmlns:local="clr-namespace:ShortCuts.UI.Views.Pages"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Border Background="Transparent" Focusable="True">
+        <Border   Height="400" Width="700">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <!--Header Grid-->
+                <Border Grid.Row="0"  CornerRadius="10 10 0 0" Grid.ColumnSpan="2" Background="{StaticResource BlueColorBrush}">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.3*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="0.3*"/>
+                        </Grid.ColumnDefinitions>
+                        <Path Height="24"
+                              Grid.Column="0"
+                              Width="24"
+                              VerticalAlignment="Center"
+                              HorizontalAlignment="Left"
+                              Fill="{StaticResource PureWhiteColorBrush}"
+                              Stretch="Uniform"
+                              Margin="20 0 0 0"
+                              Data="F1M18.395,27.442C19.72,28.808 20.997,30.124 22.368,31.538 20.552,31.991 18.81,32.428 16.967,32.888 17.451,31.042 17.912,29.284 18.395,27.442 M17.362,23.506C16.291,27.594 15.25,31.572 14.188,35.628 18.236,34.624 22.186,33.645 26.217,32.647 23.248,29.582 20.338,26.578 17.362,23.506 M27.653,28.816C25.392,26.622 23.166,24.464 20.889,22.254 27.483,15.76 34.018,9.323 40.512,2.926 42.699,5.114 44.875,7.29 47.09,9.505 40.612,15.942 34.102,22.408 27.653,28.816 M18.029,22.272C21.277,25.418 24.466,28.508 27.671,31.612 35.071,24.26 42.533,16.846 49.98,9.447 46.828,6.295 43.729,3.195 40.586,0.052 33.089,7.436 25.608,14.806 18.029,22.272 M32.567,0.004L32.567,2.003C31.877,2.003 31.203,2.003 30.53,2.003 22.921,2.001 15.312,2.003 7.703,1.995 5.78,1.993 4.147,2.588 2.985,4.195 2.365,5.052 2.027,6.023 2.021,7.078 2,10.766 2.001,14.454 2,18.144 1.997,26.416 2.007,34.69 1.995,42.964 1.991,45.188 2.794,46.938 4.797,48.032 5.632,48.488 6.542,48.65 7.486,48.65 19.132,48.65 30.778,48.656 42.424,48.648 45.406,48.648 47.435,46.982 47.936,44.15 48.005,43.762 48.002,43.358 48.002,42.96 48.005,34.154 48.004,25.348 48.004,16.544L48.004,15.918 49.999,15.918 49.999,16.436C49.999,25.292 50.002,34.146 49.997,43.002 49.995,46.76 47.437,49.838 43.746,50.54 43.472,50.592 43.185,50.597 42.904,50.597 31.092,50.599 19.279,50.594 7.467,50.604 4.711,50.606 2.684,49.322 1.179,47.118 0.353,45.908 -0.001,44.542 0,43.07 0.008,33.518 0.003,23.964 0.003,14.412 0.003,12.152 -0.001,9.893 0.006,7.633 0.017,3.351 3.327,0.015 7.613,0.008 15.771,-0.007 23.928,0.003 32.085,0.004 32.231,0.004 32.377,-0.007 32.567,0.004"/>
+                        <TextBlock Grid.Column="1" Text="Please Add Or Update ShortCut..."
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                                   Foreground="{StaticResource PureWhiteColorBrush}"
+                                   FontSize="{StaticResource ExtraNormalSize}"></TextBlock>
+                        <Button x:Name="Close" Grid.Column="2" Background="Transparent" Style="{StaticResource BaseButton}">
+                            <Path
+                              Height="24" 
+                              Width="24"
+                              HorizontalAlignment="Right"
+                              VerticalAlignment="Center"
+                              Margin="0 0 20 0"
+                              Fill="{StaticResource PureWhiteColorBrush}" 
+                              Stretch="Uniform"
+                              Data="F1M35.688,31.801L31.802,35.687 25,28.886 18.199,35.687 14.313,31.801 21.114,25 14.313,18.199 18.199,14.312 25,21.114 31.802,14.312 35.688,18.199 28.887,25z M25,0C11.193,0 0,11.193 0,25 0,38.807 11.193,50 25,50 38.808,50 50.001,38.807 50.001,25 50.001,11.193 38.808,0 25,0"/>
+                        </Button>
+
+                    </Grid>
+                </Border>
+                <!--Content Grid-->
+                <Border Grid.Row="1" CornerRadius="0 0 10 10" Background="{StaticResource PureWhiteColorBrush}">
+                    <Grid Grid.Row="1" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="0.4*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="1.1*"/>
+                            <RowDefinition Height="0.6*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <!--Toogle Button For ON/OFF List Box For Editing ShortCut -->
+                        <ToggleButton Grid.Row="0" 
+                                  Grid.Column="1"
+                                  Background="{StaticResource PureWhiteColorBrush}"
+                                  Foreground="{StaticResource LightGrayColorBrush}"
+                                  FontSize="{StaticResource NormalSize}"
+                                  Content="Edit"
+                                  ToolTip="Edit Drop Down"
+                                  IsChecked="{Binding IsDisplayProductListEditable,Mode=TwoWay}"
+                                  Height="30"
+                                  Width="120"
+                                  HorizontalAlignment="Right"
+                                  VerticalAlignment="Bottom"
+                                  Margin="0 0 20 0"
+                                  Style="{StaticResource SwitchToggleButton}"/>
+                        <!--ComboBox for Product Types Like Office Suite Adobe , Corel etc..-->
+                        <ComboBox x:Name="SoftwareTypeComboBox"
+                                  Grid.Row="1"
+                                  Background="{StaticResource PureWhiteColorBrush}"
+                                  Grid.Column="0"
+                                  SelectionChanged="SoftwareTypeComboBox_SelectionChanged"
+                                  BorderBrush="{StaticResource LightBlueColorBrush}"
+                                  BorderThickness="1.5"
+                                  ItemsSource="{Binding ProductTypes,Mode=OneWay}"
+                                  SelectedItem="{Binding SelectedProductType,Mode=TwoWay}"
+                                  HorizontalContentAlignment="Left"
+                                  VerticalContentAlignment="Center"
+                                  FontFamily="{StaticResource RegularFont}"
+                                  FontSize="{StaticResource MediumSize}"
+                                  Padding="10 0 0 0"
+                                  ControlExtensions:MiscControlExtensions.CornerRadius="5"
+                                  ControlExtensions:WaterMarkTextExtension.WatermarkIconVisibility="Collapsed"
+                                  ControlExtensions:WaterMarkTextExtension.WatermarkText="Selected Suit"
+                                  ControlExtensions:WaterMarkTextExtension.WatermarkColor="{StaticResource LightGrayColorBrush}"
+                                  Height="40"
+                                  MaxDropDownHeight="300"
+                                  Foreground="{StaticResource GrayColorBrush}"
+                                  Width="300" 
+                                  HorizontalAlignment="Left"
+                                  Margin="20 0 0 0"
+                                   ItemTemplate="{StaticResource ContentExtendingDropdownTemplate}">
+                            <ComboBox.Style>
+                                <Style TargetType="ComboBox" BasedOn="{StaticResource BaseComboBox}">
+                                    <Setter Property="IsHitTestVisible" Value="False"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsDisplayProductListEditable,Mode=OneWay}" Value="True">
+                                            <Setter Property="IsHitTestVisible" Value="True"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ComboBox.Style>
+                        </ComboBox>
+                        <!--ComboBox for Product Like Photoshop Illistrater etc...-->
+                        <ComboBox x:Name="SoftWareComboBox"
+                                  Grid.Row="1"
+                                  Grid.Column="1"
+                                  BorderBrush="{StaticResource LightBlueColorBrush}"
+                                  BorderThickness="1.5"
+                                  ItemsSource="{Binding Products,Mode=OneWay}"
+                                  SelectedItem="{Binding SelectedProduct,Mode=TwoWay}"
+                                  FontFamily="{StaticResource RegularFont}"
+                                  FontSize="{StaticResource MediumSize}"
+                                  Foreground="{StaticResource GrayColorBrush}"
+                                  ControlExtensions:WaterMarkTextExtension.WatermarkIconVisibility="Collapsed"
+                                  ControlExtensions:WaterMarkTextExtension.WatermarkText="Selected Product"
+                                  ControlExtensions:WaterMarkTextExtension.WatermarkColor="{StaticResource LightGrayColorBrush}"
+                                  Height="40"
+                                  Width="300" 
+                                  HorizontalAlignment="Center"
+                                  Margin="20 0 0 0"
+                                  ItemTemplate="{StaticResource ContentExtendingDropdownTemplate}">
+                            <ComboBox.Style>
+                                <Style TargetType="ComboBox" BasedOn="{StaticResource BaseComboBox}">
+                                    <Setter Property="IsHitTestVisible" Value="False"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding IsDisplayProductListEditable,Mode=OneWay}" Value="True">
+                                            <Setter Property="IsHitTestVisible" Value="True"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </ComboBox.Style>
+                        </ComboBox>
+                        <!--TextBlock For Error Handling-->
+                        <TextBlock Grid.Row="2" 
+                                   Grid.Column="0"
+                                   Margin="25 0 0 0"
+                                   VerticalAlignment="Bottom"
+                                   Text="Please Enter the ShortCut Text" 
+                                   Foreground="{StaticResource RedColorBrush}"
+                                   FontFamily="{StaticResource RegularFont}"
+                                   FontSize="{StaticResource MediumSize}"
+                                   Visibility="{Binding IsShortCutTextWritten,Mode=OneWay,Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                        <!--TextBlock For Error Handling-->
+                        <TextBlock Grid.Row="2" 
+                                   Grid.Column="1" 
+                                   Text="Please Enter the Description Text" 
+                                   Foreground="{StaticResource RedColorBrush}"
+                                   FontFamily="{StaticResource RegularFont}"
+                                   VerticalAlignment="Bottom"
+                                   Margin="25 0 0 0"
+                                   FontSize="{StaticResource MediumSize}"
+                                   Visibility="{Binding IsDescriptionTextWritten,Mode=OneWay,Converter={StaticResource BooleanToVisibilityConverter}}"/>
+                        <!--Text Box For Adding ShortCuts-->
+                        <StackPanel Grid.Row="3" Grid.Column="0">
+                            <TextBox x:Name="MacShortCut" 
+                                 Focusable="True"
+                                 Text="{Binding MacShortCutText,Mode=TwoWay}"
+                                 Height="50"
+                                 Width="300"
+                                 ControlExtensions:WaterMarkTextExtension.WatermarkText="Mac ShortCut Key"
+                                 Background="{StaticResource PureWhiteColorBrush}"
+                                 Style="{StaticResource TextBoxVisibilityPathIconStyle}"
+                                 HorizontalAlignment="Left"
+                                 Margin="20 0 0 5">
+                        </TextBox>
+                            <TextBox x:Name="WinShortCut" 
+                                 Focusable="True"
+                                 Text="{Binding WinShortCutText,Mode=TwoWay}"
+                                 Height="50"
+                                 Width="300"
+                                 ControlExtensions:WaterMarkTextExtension.WatermarkText="Win ShortCut Key"
+                                 Background="{StaticResource PureWhiteColorBrush}"
+                                 Style="{StaticResource TextBoxVisibilityPathIconStyle}"
+                                 HorizontalAlignment="Left"
+                                 Margin="20 5 0 0">
+                            </TextBox>
+                        </StackPanel>
+                        <TextBox x:Name="Description"
+                                 Grid.Row="3"
+                                 Grid.Column="1"
+                                 TextWrapping="Wrap"
+                                 AcceptsReturn="True"
+                                 VerticalScrollBarVisibility="Auto"
+                                 HorizontalScrollBarVisibility="Disabled"
+                                 Text="{Binding ShortCutDescription,Mode=TwoWay}"
+                                 TextAlignment="Left"
+                                 Height="80"
+                                 VerticalAlignment="Stretch"
+                                 ControlExtensions:WaterMarkTextExtension.WatermarkText="Description"
+                                 Width="300"
+                                 Background="{StaticResource PureWhiteColorBrush}"
+                                 Style="{StaticResource TextBoxVisibilityPathIconStyle}"/>
+                        <Button x:Name="Submit"
+                                Grid.Row="4" 
+                                Style="{StaticResource BaseButton}"
+                                Margin="50,0"
+                                MaxHeight="50"
+                                MaxWidth="300"
+                                Background="{StaticResource GreenColorBrush}"
+                                Content="Submit"
+                                HorizontalContentAlignment="Center"
+                                VerticalContentAlignment="Center"
+                                FontFamily="{StaticResource RegularFont}"
+                                FontSize="{StaticResource NormalSize}"></Button>
+                        <Button x:Name="Cancel"
+                                Grid.Row="4"
+                                Grid.Column="1"
+                                Style="{StaticResource BaseButton}"
+                                Margin="50,0"
+                                MaxHeight="50"
+                                MaxWidth="300"
+                                Background="{StaticResource LightGrayColorBrush}"
+                                Content="Cancel"
+                                HorizontalContentAlignment="Center"
+                                VerticalContentAlignment="Center"
+                                FontFamily="{StaticResource RegularFont}"
+                                FontSize="{StaticResource NormalSize}"></Button>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Border>
+
+    </Border>
+</UserControl>

@@ -1,0 +1,6 @@
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCut.Util\bin\Release\ShortCut.Util.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCut.Util\bin\Release\ShortCut.Util.pdb
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCut.Util\obj\Release\ShortCut.Util.csproj.CoreCompileInputs.cache
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCut.Util\obj\Release\ShortCut.Util.dll
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCut.Util\obj\Release\ShortCut.Util.pdb
+C:\Local Disk F_12220201731\ShababButt\ShortCuts\ShortCut.Util\obj\Release\ShortCut.Util.csprojAssemblyReference.cache
